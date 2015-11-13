@@ -1,0 +1,60 @@
+{
+	"return_code":1,
+	"return_message":"查询成功",
+  "address_list": [
+    {
+      "address": "吉林省白山市靖宇县个反反复复",
+      "address_id": "4905d51c-fb45-43f4-a527-ffaf4117c1b8",
+      "city_id": "A0845",
+      "county_id": "A1589",
+      "phone": "12355633698",
+      "province_id": "A0002",
+      "receiver": "得瑟",
+      "is_default":1
+    },
+    {
+      "address": "安徽省淮北市相山区呢。是否还",
+      "address_id": "fbc26469-d6c5-45b0-935d-65c1d7a19b91",
+      "city_id": "A0893",
+      "county_id": "A1956",
+      "phone": "12345678912",
+      "province_id": "A0006",
+      "receiver": "太斯特",
+      "is_default":0
+    },
+    {
+      "address": "湖南省长沙市雨花区1111111111111",
+      "address_id": "74eaa2fa-94c3-4194-835d-2183040757f3",
+      "city_id": "A0964",
+      "county_id": "A2553",
+      "phone": "13510521294",
+      "province_id": "A0011",
+      "receiver": "刘剑",
+      "is_default":0
+    },
+    {
+      "address": "广东省深圳市南山区  东滨路口4269号",
+      "address_id": "2cb51685-f4c4-46c1-9b6c-637b182be953",
+      "cityid": "A0980",
+      "county_id": "A2673",
+      "phone": "13510521294",
+      "province_id": "A0012",
+      "receiver": "啊啊",
+      "is_default":0
+    },
+    {
+      "address": "山东省济宁市泗水县。 ",
+      "address_id": "82934449-362b-4318-8c00-721a0fda2b2e",
+      "city_id": "A0928",
+      "county_id": "A2247",
+      "phone": "13510521294",
+      "province_id": "A0885",
+      "receiver": "刘剑test",
+      "is_default":0
+    }
+  ],
+  "return_code": 1,
+  "return_message": "查询成功"
+}
+
+

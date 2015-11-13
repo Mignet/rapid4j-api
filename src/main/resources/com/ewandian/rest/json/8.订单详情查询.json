@@ -1,0 +1,73 @@
+{
+    "code": 0,
+    "error": false,
+    "data": {
+        "datas": [
+            {
+                "soNo": "XX1510230001",
+                "totalAmount": 8050,
+                "freight": 50,
+                "status": "TOPAY",
+                "statusName": "待付款",
+                "settleTypeId": "1",
+                "contactName": "张三",
+                "phone": 13458695623,
+                "createDate": "2015-10-28 12:46:58",
+                "address": "四川省成都市金牛区茶店子安蓉路1号金牛座1单元703室",
+                "listSoDetails": [
+                    {
+                        "goodsId": "001O8",
+                        "goodsName": "雅马哈功放 RX-V371",
+                        "imgId": "c9caafe10db817c495f2b5f78ebe361f",
+                        "qty": 2,
+                        "salePrice": 2000
+                    },
+                    {
+                        "goodsId": "00GYB",
+                        "goodsName": "海尔洗衣机 XQB55-M1269M",
+                        "imgId": "c9caafe10db817c495f2b5f78dbe36ff",
+                        "qty": 4,
+                        "salePrice": 1000
+                    }
+                ]
+            },
+            {
+                "soNo": "XX1510230001",
+                "totalAmount": 30110,
+                "freight": 110,
+                "status": "AUDITING",
+                "statusName": "审核中",
+                "settleTypeId": "1",
+                "contactName": "李四",
+                "phone": 13712345696,
+                "createDate": "2015-10-28 12:46:58",
+                "address": "青岛市城阳区正阳中路150号春阳广场A座1单元402",
+                "listSoDetails": [
+                    {
+                        "goodsId": "00GH8",
+                        "goodsName": "IPONE6S",
+                        "imgId": "c9caafe10db817c495f2b5f78ebe361f",
+                        "qty": 2,
+                        "salePrice": 10000
+                    },
+                    {
+                        "goodsId": "0AFGB",
+                        "goodsName": "金立手机",
+                        "imgId": "c9caafe10db817c495f2b5f78dbe36ff",
+                        "qty": 1,
+                        "salePrice": 10000
+                    }
+                ]
+            }
+        ],
+        "firstPage": false,
+        "lastPage": false,
+        "offset": 0,
+        "page": 1,
+        "pageCount": 10,
+        "total": 1,
+        "totalPage": 1
+    },
+    "status": "OK",
+    "success": true
+}

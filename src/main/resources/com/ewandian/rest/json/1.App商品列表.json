@@ -1,0 +1,75 @@
+{
+  "goods_list": [
+    {
+      "desc": "海尔冰箱，人工智能冰冻，刚刚的！",
+      "goods_id": "0092N",
+      "goods_name": "海尔冰箱 BCD-118TMPA",
+      "img_path": "http://img.1wandian.com/sysimg/GOODS/L00000A/0092N/未标题-16.jpg",
+      "market_price": 1019.0,
+      "model": "BCD-118TMPA",
+      "sale_price": 939.0,
+      "sale_qty": 233,
+      "stock": 19
+    },
+    {
+      "desc": "长虹平板电视 LED50C2080i",
+      "goods_id": "002T5",
+      "goods_name": "长虹平板电视 LED50C2080i",
+      "img_path": "http://img.1wandian.com/APPIMG/GOODS/L000007/002T5/未标题-200.jpg",
+      "market_price": 2999.0,
+      "model": "LED50C2080i",
+      "sale_price": 2999.0,
+      "sale_qty": 300,
+      "stock": 30
+    },
+    {
+      "desc": "康佳电视 LED42T16A",
+      "goods_id": "00379",
+      "goods_name": "康佳电视 LED42T16A",
+      "img_path": "http://img.1wandian.com/APPIMG/GOODS/L000007/00379/2b862fac-3457-4cc6-8d21-45ac0b0e9f69.jpg",
+      "market_price": 2799.0,
+      "model": "BCD-118TMPA",
+      "sale_price": 2698.0,
+      "sale_qty": 456,
+      "stock": 24
+    },
+    {
+      "desc": "长虹平板电视 LED55C2080i",
+      "goods_id": "00BSB",
+      "goods_name": "长虹平板电视 LED55C2080i",
+      "img_path": "http://img.1wandian.com/APPIMG/GOODS/L000007/00BSB/未标题-209.jpg",
+      "market_price": 3299.0,
+      "model": "LED55C2080i",
+      "sale_price": 3299.0,
+      "sale_qty": 133,
+      "stock": 23
+    },
+    {
+      "desc": "创维电视 43S9",
+      "goods_id": "00CWW",
+      "goods_name": "创维电视 43S9",
+      "img_path": "http://img.1wandian.com/APPIMG/GOODS/L000007/00CWW/未标题-57.jpg",
+      "market_price": 2299.0,
+      "model": "43S9",
+      "sale_price": 1939.0,
+      "sale_qty": 533,
+      "stock": 49
+    },
+    {
+      "desc": "创维电视 50S9",
+      "goods_id": "00D9J",
+      "goods_name": "创维电视 50S9",
+      "img_path": "http://img.1wandian.com/APPIMG/GOODS/L000007/00D9J/1.jpg",
+      "market_price": 1019.0,
+      "model": "50S9",
+      "sale_price": 939.0,
+      "sale_qty": 833,
+      "stock": 29
+    }
+  ],
+  "return_code": 1,
+  "return_message": "查询成功",
+  "total_pages": 10
+}
+
+

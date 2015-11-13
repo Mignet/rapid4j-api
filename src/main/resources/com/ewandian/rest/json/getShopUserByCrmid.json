@@ -1,0 +1,73 @@
+{
+  "code": 0,
+  "data": {
+    "datas": [
+      {
+        "contactName": "003",
+        "createDate": "2015-06-30 20:12:09",
+        "dataMap": {},
+        "fullAddress": "云南省003",
+        "new": true,
+        "phone": "13012312312",
+        "singleFind": "",
+        "verified": false,
+        "version": 0
+      },
+      {
+        "contactName": "002",
+        "createDate": "2015-06-30 20:12:09",
+        "dataMap": {},
+        "fullAddress": "自贡002",
+        "new": true,
+        "phone": "13012312312",
+        "singleFind": "",
+        "verified": false,
+        "version": 0
+      },
+      {
+        "contactName": "默默",
+        "createDate": "2015-06-29 09:52:49",
+        "dataMap": {},
+        "fullAddress": "自贡好吃街",
+        "new": true,
+        "phone": "1457125412",
+        "singleFind": "",
+        "verified": false,
+        "version": 0
+      },
+      {
+        "contactName": "成莫莫莫",
+        "createDate": "2015-06-24 16:18:08",
+        "dataMap": {},
+        "fullAddress": "自贡东滨路4269号南山主角13楼",
+        "new": true,
+        "phone": "1236487514",
+        "singleFind": "",
+        "verified": false,
+        "version": 0
+      },
+      {
+        "contactName": "wrg",
+        "createDate": "2015-06-24 16:18:08",
+        "dataMap": {},
+        "fullAddress": "广东深圳市南山区东滨路4269号南山主角13楼",
+        "new": true,
+        "phone": "124571",
+        "singleFind": "",
+        "verified": false,
+        "version": 0
+      }
+    ],
+    "firstPage": false,
+    "lastPage": false,
+    "offset": 0,
+    "page": 1,
+    "pageCount": 20,
+    "total": 5,
+    "totalPage": 1
+  },
+  "error": false,
+  "message": "查询成功",
+  "status": "OK",
+  "success": true
+}

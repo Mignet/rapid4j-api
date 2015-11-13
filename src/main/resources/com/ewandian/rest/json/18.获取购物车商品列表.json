@@ -1,0 +1,27 @@
+{
+    "data": [
+        {
+            "desc": "海尔冰箱，人工智能冰冻，刚刚的！", 
+            "goodsId": "0092N", 
+            "goodsName": "海尔冰箱 BCD-118TMPA", 
+            "imgPath": "http://img.1wandian.com/sysimg/GOODS/L00000A/0092N/未标题-16.jpg", 
+            "qty": "11", 
+            "shopId": "939", 
+            "shopName": "XX店", 
+            "amt": 19
+        }, 
+        {
+            "desc": "长虹平板电视 LED50C2080i", 
+            "goodsId": "002T5", 
+            "goodsName": "长虹平板电视 LED50C2080i", 
+            "imgPath": "http://img.1wandian.com/APPIMG/GOODS/L000007/002T5/未标题-200.jpg", 
+            "price": 2999, 
+            "qty": 3, 
+            "shopId": "2999", 
+            "shopName": "YY店", 
+            "amt": 30
+        }
+    ], 
+    "code": 1, 
+    "message": "查询成功"
+}

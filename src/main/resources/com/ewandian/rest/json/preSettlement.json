@@ -1,0 +1,9 @@
+{
+"success":true,
+"error":false,
+"code":0,
+"data":{
+          "settlementAmount":2199.00,
+          "discountAmount"  :1000.00
+        }
+}

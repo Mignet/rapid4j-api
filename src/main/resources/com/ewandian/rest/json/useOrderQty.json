@@ -1,0 +1,29 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "count": 0,
+      "date": "2015-01-12"
+    },
+    {
+      "count": 374,
+      "date": "2015-02-14"
+    },
+    {
+      "count": 362,
+      "date": "2015-03-19"
+    },
+    {
+      "count": 352,
+      "date": "2015-04-21"
+    },
+    {
+      "count": 329,
+      "date": "2015-05-24"
+    }
+  ],
+  "error": false,
+  "message": "查询成功",
+  "status": "OK",
+  "success": true
+}

@@ -1,0 +1,11 @@
+{
+	"return_code":1,
+	"return_message":"查询成功",
+	"nick_name":"Kittle",
+	"phone":"13900001234",
+	"wait_pay_qty":1,
+	"wait_recv_qty":1,
+	"shop_cart_qty":3,
+	"avatar_path":"http://xxx.png"
+}
+

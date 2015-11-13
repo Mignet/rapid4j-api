@@ -1,0 +1,394 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+<h4 align="center"><b>联盟店APP API列表</b><a class="btn" href="http://192.168.1.165/apimanager/index.php" target="_blank">Manage</a></h4>
+<div>
+<pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("goods")</br>
+    public String getGoodsMaster() {</br>
+        return readJson("getGoodsMaster.json");//1.App商品列表</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("categoties")</br>
+    public String getCategotyies() {</br>
+    	return readJson("getGcMasterList.json");</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("brands")</br>
+    public String getBrands() {</br>
+    	return readJson("getBrandList.json");</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("goods/{goodsid}")</br>
+    public String getGoodsById(@PathParam("goodsid")String goodsid) {</br>
+        return readJson("getGoodsMasterById.json");</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("shop/introduce")</br>
+    public String getShopById(@PathParam("id")String id) {</br>
+    	return readJson("getShopById.json");</br>
+    }</br>
+</pre><pre>
+    @POST</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("shop/introduce")</br>
+    public String updateShopById(String introduce) {</br>
+    	return readJson("通用成功.json");</br>
+    }</br>
+</pre><pre>
+    @DELETE</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("goods/{goodsid}")</br>
+    public String deleteGoodsById(@PathParam("goodsid")String goodsid) {</br>
+    	return readJson("4.商品删除接口.json");//goodsIds</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("freightfee")</br>
+    public String cumputeFreight() {</br>
+    	return readJson("5.获取订单运费.json");</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("order")</br>
+    public String queryOrderList(@QueryParam("shopId") String shopId,</br>
+    		@QueryParam("page")int page,@QueryParam("pageCount")int pageCount,@QueryParam("type") int type) {</br>
+    	return readJson("7.订单列表查询.json");</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("queryOrder")</br>
+    public String queryOrderListForBack(@QueryParam("shopId") String shopId,</br>
+    		@QueryParam("page")int page,@QueryParam("pageCount")int pageCount) {</br>
+    	return readJson("queryOrder.json");</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("orderDetail")</br>
+    public String queryOrderDetailList(@PathParam("soNo") String soNo) {</br>
+    	return readJson("8.订单详情查询.json");</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("order/{soNo}")</br>
+    public String queryOrderDetail(@PathParam("soNo") String soNo) {</br>
+    	return readJson("单个订单详情.json");</br>
+    }</br>
+</pre><pre>
+    @DELETE</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("order/{soNo}")</br>
+    public String deleteOrdersById(@PathParam("soNo") String orderid) {</br>
+    	return readJson("9.订单删除接口.json");</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("messages")</br>
+    public String getMessages(@QueryParam("recieverId")String recieverId,@QueryParam("page")int page,@QueryParam("pageCount")int pageCount) {</br>
+    	return readJson("11.获取消息.json");</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("messages/unread")</br>
+    public String getUnreadMessages(@QueryParam("recieverId")String recieverId) {</br>
+    	return "{\"code\":0, \"data\":3, \"error\":false, \"status\":\"OK\", \"success\":true}";</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("messages/{id}")</br>
+    public String readMessage(@PathParam("id") String id) {</br>
+    	return readJson("12.修改消息状态接口.json");</br>
+    }</br>
+</pre><pre>
+    @DELETE</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("messages/{id}")</br>
+    public String removeMessage(@PathParam("id") String id) {</br>
+    	return readJson("12.删除消息.json");</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("user/{crmid}")</br>
+    public String getUserById(@PathParam("crmid")String crmid) {</br>
+    	return readJson("getUserInfo.json");</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("verifycode")</br>
+    public String getVerifyCode(@QueryParam("phoneno") String phoneno) {</br>
+    	return readJson("getVerifyCode.json");</br>
+    }</br>
+</pre><pre>
+    @POST</br>
+    @Consumes(MediaType.APPLICATION_JSON)</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("register")</br>
+    public String register(String loginCodepassWord) {</br>
+    	return readJson("userRegister.json");//注册</br>
+    }</br>
+</pre><pre>
+    @POST</br>
+    @Consumes(MediaType.APPLICATION_JSON)</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("login")</br>
+    public String login(String loginCodepassWord) {</br>
+    	return readJson("userLogin.json");//登录</br>
+    }</br>
+</pre><pre>
+    @POST</br>
+    @Consumes(MediaType.APPLICATION_JSON)</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("avatar")</br>
+    public String updateAvatarByCrmid(String crmIdavatarPath) {</br>
+    	return readJson("updateAvatarByCrmid.json");//用户上传头像接口(图片返回之后调用)</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("address")</br>
+    public String getUserAddress(@QueryParam("crmId")String crmId) {</br>
+    	return readJson("getAddressListByCrmid.json");</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("areaProvinceId")</br>
+    public String areaProvinceId() {</br>
+    	return readJson("areaProvinceId.json");</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("areaChildren")</br>
+    public String areaChildren(@QueryParam("areaId")String areaId) {</br>
+    	return readJson("areaChildren.json");</br>
+    }</br>
+</pre><pre>
+    @POST</br>
+    @Consumes(MediaType.APPLICATION_JSON)</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("address")</br>
+    public String addNewAddresOrUpdateAddress(String addressObject) {</br>
+    	return readJson("addNewAddresOrUpdateAddress.json");//16.增加、修改用户地址</br>
+    }</br>
+</pre><pre>
+    @DELETE</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("address/{addressid}")</br>
+    public String deleteAddress() {</br>
+    	return readJson("deleteAddress.json");//17.删除地址</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("shopcart")</br>
+    public String getShopcart(@QueryParam("accountId")String accountId) {</br>
+    	return readJson("18.获取购物车商品列表.json");</br>
+    }</br>
+</pre><pre>
+    @POST</br>
+    @Consumes(MediaType.APPLICATION_JSON)</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("addShopCart")</br>
+    public String addShopcart(String shopIdgoodIdaccountId	) {</br>
+    	return readJson("19.添加商品到购物车.json");</br>
+    }</br>
+</pre><pre>
+    @POST</br>
+    @Consumes(MediaType.APPLICATION_JSON)</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("removeShopCart")</br>
+    public String removeShopcart(String shopIdgoodIdaccountId) {</br>
+    	return readJson("20.删除购物车商品.json");</br>
+    }</br>
+</pre><pre>
+    @POST</br>
+    @Consumes(MediaType.APPLICATION_JSON)</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("shopusers")</br>
+    public String getShopUserByCrmid(String shopId) {</br>
+    	return readJson("getShopUserByCrmid.json");//获取店铺用户列表</br>
+    }</br>
+</pre><pre>
+    @POST</br>
+    @Consumes(MediaType.APPLICATION_JSON)</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("shelfUp")</br>
+    public String itemUpshelf(String goodsidshopid) {</br>
+    	return readJson("4.商品删除接口.json");//商品上架</br>
+    }</br>
+</pre><pre>
+    @POST</br>
+    @Consumes(MediaType.APPLICATION_JSON)</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("shelfDown")</br>
+    public String itemDownShelf(String goodsidshopid) {</br>
+    	return readJson("4.商品删除接口.json");//商品下架</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("useOrderQty")</br>
+    public String useOrderQty(@QueryParam("shopid")String shopid) {</br>
+    	return readJson("useOrderQty.json");//曲线图用户量/订单量数据查询</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("orderIncome")</br>
+    public String orderIncome(@QueryParam("shopid")String shopid) {</br>
+    	return readJson("orderIncome.json");//店铺订单收入列表查询</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("incomeData")</br>
+    public String incomeData(@QueryParam("shopid")String shopid) {</br>
+    	return readJson("incomeData.json");//曲线图收入数据查询</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("getModelList")</br>
+    public String getModelList(@QueryParam("bandId")String bandId,@QueryParam("categoryId")String categoryId) {</br>
+    	return readJson("getModelList.json");</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("getShopcartGoodsCount")</br>
+    public String getShopcartGoodsCount(@QueryParam("accountid")String accountid) {</br>
+    	return readJson("getShopcartGoodsCount.json");</br>
+    }</br>
+</pre><pre>
+    @POST</br>
+    @Consumes(MediaType.APPLICATION_JSON)</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("calcFreight")</br>
+    public String calcFreight(@QueryParam("goodsid")String goodsid,@QueryParam("amount")String amount) {</br>
+    	return readJson("calcFreight.json");</br>
+    }</br>
+</pre><pre>
+    @POST</br>
+    @Consumes(MediaType.APPLICATION_JSON)</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("editGoods")</br>
+    public String editGoods(String goodsMasterObj) {</br>
+    	return readJson("editGoods.json");</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("goodseditlist")</br>
+    public String goodseditlist(@QueryParam("shopId")String shopId) {</br>
+    	return readJson("goodseditlist.json");</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("queryToReceive")</br>
+    public String queryToReceive(@QueryParam("customerId")String customerId) {</br>
+    	return readJson("queryToReceive.json");</br>
+    }</br>
+</pre><pre>
+    @GET</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("queryToPay")</br>
+    public String queryToPay(@QueryParam("customerId")String customerId) {</br>
+    	return readJson("queryToPay.json");</br>
+    }</br>
+</pre><pre>
+    @POST</br>
+    @Consumes(MediaType.APPLICATION_JSON)</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("insertGoodsMasterList")</br>
+    public String insertGoodsMasterList(String goodsMasterObj) {</br>
+    	return readJson("insertGoodsMasterList.json");</br>
+    }</br>
+</pre><pre>
+    @POST</br>
+    @Consumes(MediaType.APPLICATION_JSON)</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("updateOnSaleApply")</br>
+    public String updateOnSaleApply(String onSaleApplyVOonSaleGoodsList) {</br>
+    	return readJson("updateOnSaleApply.json");</br>
+    }</br>
+</pre><pre>
+    @POST</br>
+    @Consumes(MediaType.APPLICATION_JSON)</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("addOnSaleApply")</br>
+    public String addOnSaleApply(String onSaleApplyVOonSaleGoodsList) {</br>
+    	return readJson("addOnSaleApply.json");</br>
+    }</br>
+</pre><pre>
+    @POST</br>
+    @Consumes(MediaType.APPLICATION_JSON)</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("manageCurrentPromotion")</br>
+    public String manageCurrentPromotion(String applyIdshopIdtodo) {</br>
+    	return readJson("manageCurrentPromotion.json");</br>
+    }</br>
+</pre><pre>
+    @POST</br>
+    @Consumes(MediaType.APPLICATION_JSON)</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("onSaleApplies")</br>
+    public String onSaleApplies(String applyIdshopIdtodo) {</br>
+    	return readJson("getOnSaleApplies.json");//App首页活动</br>
+    }</br>
+</pre><pre>
+    @POST</br>
+    @Consumes(MediaType.APPLICATION_JSON)</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("submitOrder")</br>
+    public String submitOrder(String order) {</br>
+    	return readJson("submitOrder.json");</br>
+    }</br>
+</pre><pre>
+    @POST</br>
+    @Consumes(MediaType.APPLICATION_JSON)</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("preSettlement")</br>
+    public String preSettlement(String order) {</br>
+    	return readJson("preSettlement.json");</br>
+    }</br>
+    @POST</br>
+    @Consumes(MediaType.APPLICATION_JSON)</br>
+    @Produces(MediaType.APPLICATION_JSON)</br>
+    @Path("confirmReceipt")</br>
+    public String confirmReceipt(String sono) {</br>
+    	return readJson("confirmReceipt.json");//confirmReceipt</br>
+    }</br>
+</pre>
+</div>
+</body>
+</html>

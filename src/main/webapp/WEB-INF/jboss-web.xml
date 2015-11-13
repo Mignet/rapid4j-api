@@ -1,0 +1,20 @@
+﻿<!DOCTYPE jboss-web PUBLIC "-//JBoss//DTD Web Application 5.0//EN"  
+"http://www.jboss.org/j2ee/dtd/jboss-web_5_0.dtd">  
+<jboss-web>   
+    <context-root>/</context-root>
+    <!--
+    <replication-config>  
+        <cache-name>standard-session-cache</cache-name>  
+    </replication-config>  
+    -->
+    <!-- For session time -->  
+    <!--最多支持2000个活动会话-->
+    <!--活动会话空闲时间至少保留10分钟-->
+    <!--活动会话空闲时间至多保留30分钟
+    <max-active-sessions>2000</max-active-sessions>  
+    <passivation-config>  
+        <use-session-passivation>true</use-session-passivation>  
+        <passivation-min-idle-time>600</passivation-min-idle-time>  
+        <passivation-max-idle-time>1800</passivation-max-idle-time>  
+    </passivation-config> -->
+</jboss-web>

@@ -1,0 +1,29 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "address": "福建有名街",
+      "areaName": "福建省福州市",
+      "cityId": "A0904",
+      "contactName": "mr tao",
+      "countyId": "A2032",
+      "crmId": "CM1511070001",
+      "dataMap": {},
+      "fullId": "A0007-A0904-A2032",
+      "fulladdress": "福建省福州市福建有名街",
+      "id": "06A562A0-DA3C-4FD0-95AB-410D1AB1037D",
+      "isDeliverDefault": "N",
+      "isRecvDefault": "N",
+      "new": false,
+      "phone": "18520141245",
+      "provinceId": "A0007",
+      "singleFind": "",
+      "verified": false,
+      "version": 0
+    }
+  ],
+  "error": false,
+  "message": "获取地址成功",
+  "status": "OK",
+  "success": true
+}

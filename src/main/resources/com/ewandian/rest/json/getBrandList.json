@@ -1,0 +1,44 @@
+{
+	"code":0,
+	"data":[
+		{
+			"addrname":"T",
+			"brandid":"BR000013",
+			"brandname":"TCL",
+			"createdate":"2013-02-21 15:28:56",
+			"imgid":"2308cd0540cc7035435409956dfa2f89",
+			"dataMap":{},
+			"new":true,
+			"singleFind":"",
+			"verified":false,
+			"version":0
+		},
+		{
+			"addrname":"K",
+			"brandid":"BR000096",
+			"brandname":"科龙",
+			"createdate":"2013-02-21 15:28:56",
+			"imgid":"2308cd0540cc7035435409956dfa2f89",
+			"dataMap":{},
+			"new":true,
+			"singleFind":"",
+			"verified":false,
+			"version":0
+		},
+		{
+			"addrname":"M",
+			"brandid":"BR000112",
+			"brandname":"美的",
+			"createdate":"2013-02-21 15:28:56",
+			"imgid":"2308cd0540cc7035435409956dfa2f89",
+			"dataMap":{},
+			"new":true,
+			"singleFind":"",
+			"verified":false,
+			"version":0
+		}
+	],
+	"error":false,
+	"status":"OK",
+	"success":true
+}

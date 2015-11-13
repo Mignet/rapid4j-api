@@ -1,0 +1,27 @@
+{
+	"code":0,
+	"data":{
+		"datas":[{
+			"brandId":"BR000440",
+			"categoryId":"L00004Z",
+			"categoryname":"其他",
+			"dataMap":{},
+			"id":"5D5EA3B5-3575-43FC-90B5-146D12BA2FAA",
+			"model":"SG300-52",
+			"new":false,
+			"singleFind":"",
+			"verified":false,
+			"version":0
+		}],
+		"firstPage":false,
+		"lastPage":false,
+		"offset":0,
+		"page":1,
+		"pageCount":10,
+		"total":1,
+		"totalPage":1
+	},
+	"error":false,
+	"status":"OK",
+	"success":true
+}

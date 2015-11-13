@@ -1,0 +1,12 @@
+{
+"success":true,
+"error":false,
+"code":0,
+"data":{
+          "loginCode":"logincodeTest",
+          "userName":"nickName",
+          "phone":"1215252255",
+          "crmId":"crmId1111",
+          "imgId":"11111111"
+        }
+}

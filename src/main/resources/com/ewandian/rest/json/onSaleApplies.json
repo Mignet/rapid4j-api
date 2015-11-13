@@ -1,0 +1,139 @@
+{
+    "code": 0, 
+    "error": false, 
+    "status": "OK", 
+    "success": true, 
+    "data": {
+        "datas": [
+            {
+                "onSaleApplyVO": {
+                    "applyId": "SALE0000000111", 
+                    "attendQty": 0, 
+                    "endTime": "2015-12-31 22:00:00", 
+                    "isCODEnabled": "Y", 
+                    "isForApp": "Y", 
+                    "isHaveRtnRate": "N", 
+                    "isManJianEnabled": "N", 
+                    "isOpen": "Y", 
+                    "isShipFree": "N", 
+                    "isUseCoupon": "N", 
+                    "onSaleType": "T000000032", 
+                    "sellerId": "CM1508310007", 
+                    "sellerName": "深圳家电网", 
+                    "shopId": "S150908000001", 
+                    "shopName": "深圳家电网", 
+                    "singleFind": "", 
+                    "startTime": "2015-10-24 00:00:00", 
+                    "status": "20", 
+                    "title": "双11联盟店大促销手机专享"
+                }, 
+                "onSaleGoodsList": [
+                    {
+                        "applyId": "SALE0000000110", 
+                        "attendQty": 0, 
+                        "creditsRate": 0, 
+                        "exchangeCredits": 0, 
+                        "goodsId": "0092N", 
+                        "goodsName": "海尔冰箱 BCD-118TMPA", 
+                        "id": "8bcbb720786211e531def10086d2ff50", 
+                        "imgId": "", 
+                        "isMust": "N", 
+                        "onSalePrice": 999, 
+                        "qty": 1, 
+                        "singleFind": "", 
+                        "verified": false
+                    }
+                ]
+            }, 
+            {
+                "onSaleApplyVO": {
+                    "applyId": "SALE0000000112", 
+                    "attendQty": 0, 
+                    "endTime": "2015-12-31 22:00:00", 
+                    "isCODEnabled": "Y", 
+                    "isForApp": "Y", 
+                    "isHaveRtnRate": "N", 
+                    "isManJianEnabled": "N", 
+                    "isOpen": "Y", 
+                    "isShipFree": "N", 
+                    "isUseCoupon": "N", 
+                    "onSaleType": "T000000032", 
+                    "sellerId": "CM1508310007", 
+                    "sellerName": "深圳家电网", 
+                    "shopId": "S150908000001", 
+                    "shopName": "深圳家电网", 
+                    "singleFind": "", 
+                    "startTime": "2015-10-24 00:00:00", 
+                    "status": "20", 
+                    "title": "双11联盟店大促销手机专享"
+                }, 
+                "onSaleGoodsList": [
+                    {
+                        "applyId": "SALE0000000110", 
+                        "attendQty": 0, 
+                        "creditsRate": 0, 
+                        "exchangeCredits": 0, 
+                        "goodsId": "00D9J", 
+                        "goodsName": "创维电视 50S9", 
+                        "id": "8be3fa10786211e531def10086d2ff50", 
+                        "imgId": "", 
+                        "isMust": "N", 
+                        "new": false, 
+                        "onSalePrice": 999, 
+                        "qty": 1, 
+                        "singleFind": "", 
+                        "verified": false
+                    }
+                ]
+            }, 
+            {
+                "onSaleApplyVO": {
+                    "applyId": "SALE0000000113", 
+                    "attendQty": 0, 
+                    "endTime": "2015-12-31 22:00:00", 
+                    "isCODEnabled": "Y", 
+                    "isForApp": "Y", 
+                    "isHaveRtnRate": "N", 
+                    "isManJianEnabled": "N", 
+                    "isOpen": "Y", 
+                    "isShipFree": "N", 
+                    "isUseCoupon": "N", 
+                    "onSaleType": "T000000032", 
+                    "sellerId": "CM1508310007", 
+                    "sellerName": "深圳家电网", 
+                    "shopId": "S150908000001", 
+                    "shopName": "深圳家电网", 
+                    "singleFind": "", 
+                    "startTime": "2015-10-24 00:00:00", 
+                    "status": "20", 
+                    "title": "双11联盟店大促销手机专享"
+                }, 
+                "onSaleGoodsList": [
+                    {
+                        "applyId": "SALE0000000110", 
+                        "attendQty": 0, 
+                        "creditsRate": 0, 
+                        "exchangeCredits": 0, 
+                        "goodsId": "00CWW", 
+                        "goodsName": "创维电视 43S9", 
+                        "id": "8be4bd60786211e531def10086d2ff50", 
+                        "imgId": "", 
+                        "isMust": "N", 
+                        "new": false, 
+                        "onSalePrice": 888, 
+                        "qty": 1, 
+                        "singleFind": "", 
+                        "verified": false
+                    }
+                ]
+            }
+        ], 
+        "firstPage": false, 
+        "lastPage": false, 
+        "offset": 0, 
+        "page": 1, 
+        "pageCount": 10, 
+        "total": 1, 
+        "totalPage": 1
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "code": 0,
+    "error": false,
+    "data": {
+        "datas": [
+            {
+                "soNo": "XX1510230001",
+                "totalAmount": 3020,
+                "freight": 20,
+                "status": "ALLOUT",
+                "statusName": "已出库",
+                "settleTypeId": "1",
+                "contactName": "张三",
+                "phone": "13585296312",
+                "address": "江西省萍乡市莲花县人民路信誉街金源小区B栋503号",
+                "listSoDetails": [
+                    {
+                        "goodsId": "001O8",
+                        "goodsName": "雅马哈功放RX-V371",
+                        "imgId": "c9caafe10db817c495f2b5f78ebe361f",
+                        "qty": 1,
+                        "salePrice": 2000
+                    },
+                    {
+                        "goodsId": "00GYB",
+                        "goodsName": "海尔洗衣机XQB55-M1269M",
+                        "imgId": "c9caafe10db817c495f2b5f78dbe36ff",
+                        "qty": 1,
+                        "salePrice": 1000
+                    }
+                ],
+                "createDate": "2015-10-2812: 46: 58"
+            },
+            {
+                "soNo": "XX1510230002",
+                "totalAmount": 1510,
+                "freight": 10,
+                "status": "AUDITED",
+                "statusName": "已审核",
+                "settleTypeId": "1",
+                "contactName": "李四",
+                "phone": "15985296312",
+                "address": "广西南宁市兴宁区华东路55号第五大道1606室",
+                "listSoDetails": [
+                    {
+                        "goodsId": "00GYH",
+                        "goodsName": "晶弘冰箱BCD-218TGK金玉红",
+                        "imgId": "c9caafe10db817c495f2b5f78ebe361f",
+                        "qty": 1,
+                        "salePrice": 1200
+                    },
+                    {
+                        "goodsId": "00GYK",
+                        "goodsName": "飞科剃须刀",
+                        "imgId": "c9caafe10db817c495f2b5f78dbe36ff",
+                        "qty": 3,
+                        "salePrice": 100
+                    }
+                ],
+                "createDate": "2015-10-2812: 46: 58"
+            }
+        ],
+        "firstPage": false,
+        "lastPage": false,
+        "offset": 0,
+        "page": 1,
+        "pageCount": 10,
+        "total": 1,
+        "totalPage": 1
+    },
+    "status": "OK",
+    "success": true
+}

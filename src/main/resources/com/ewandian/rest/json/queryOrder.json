@@ -1,0 +1,37 @@
+{
+    "code": 0,
+    "error": false,
+    "data": {
+        "datas": [
+            {
+                "soNo": "XX1510290001",
+                "createDate": "2015-10-29 09:25:56",
+                "totalAmount": 2100
+            },
+            {
+                "soNo": "XX1510290002",
+                "createDate": "2015-10-29 16:46:58",
+                "totalAmount": 2500
+            },
+            {
+                "soNo": "XX1510300001",
+                "createDate": "2015-10-30 11:23:11",
+                "totalAmount": 4200
+            },
+            {
+                "soNo": "XX1510300002",
+                "createDate": "2015-10-30 15:12:46",
+                "totalAmount": 300
+            }
+        ],
+        "firstPage": false,
+        "lastPage": false,
+        "offset": 0,
+        "page": 1,
+        "pageCount": 10,
+        "total": 1,
+        "totalPage": 1
+    },
+    "status": "OK",
+    "success": true
+}

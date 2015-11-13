@@ -1,0 +1,33 @@
+{
+    "code": 0,
+    "error": false,
+    "data": {
+        "datas": [
+            {
+                "soNo": "XX1510230001",
+                "createDate": "2015-10-28",
+                "totalAmonnt": 5000,
+                "status": "TOPAY",
+                "statusName": "待付款",
+                "profit": 2000
+            },
+            {
+                "soNo": "XX1510230002",
+                "createDate": "2015-10-29",
+                "totalAmonnt": 4300,
+                "status": "RECEIVED",
+                "statusName": "已收货",
+                "profit": 1300
+            }
+        ],
+        "firstPage": false,
+        "lastPage": false,
+        "offset": 0,
+        "page": 1,
+        "pageCount": 10,
+        "total": 1,
+        "totalPage": 1
+    },
+    "status": "OK",
+    "success": true
+}

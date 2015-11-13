@@ -1,0 +1,38 @@
+{
+    "code": 0,
+    "error": false,
+    "data": {
+        "datas": [
+            {
+                "soNo": "XX1510230010",
+                "totalAmount": 1999,
+                "freight": 20,
+                "status": "TOPAY",
+                "statusName": "待付款",
+                "settleTypeId": "1",
+                "contactName": "张三",
+                "phone": "13585296312",
+                "address": "青岛市城阳区正阳中路150号春阳广场A座1单元402",
+                "listSoDetails": [
+                    {
+                        "goodsId": "00GYM",
+                        "goodsName": "美的空调 KFR-26GW/BP2DN1Y-PA402(B3)",
+                        "imgId": "c9caafe10db817c495f2b5f78ebe361f",
+                        "qty": 1,
+                        "salePrice": 1500
+                    },
+                    {
+                        "goodsId": "00BSV",
+                        "goodsName": "SK微型投影仪 IC200C",
+                        "imgId": "c9caafe10db817c495f2b5f78ebe361f",
+                        "qty": 1,
+                        "salePrice": 499
+                    }
+                ],
+                "createDate": "2015-10-23 19:46:58"
+            }
+        ]
+    },
+    "status": "OK",
+    "success": true
+}

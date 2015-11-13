@@ -1,0 +1,34 @@
+{
+ "code":0,
+ "error":false,
+ "status":"OK",
+ "success":true,
+ "data":{
+  "datas":[{
+    "id":"M002",
+    "type":"DEAL",
+    "status":"Y",
+    "senderId":"SYS",
+    "recieverId":"CM001",
+    "createDate":"2015-10-28 13:10:05",
+    "content":"尊敬的用户，您有新的订单消息",
+    "soNo":"XX001"
+  },{
+    "id":"M001",
+    "type":"DEAL",
+    "status":"N",
+    "senderId":"SYS",
+    "recieverId":"CM001",
+    "createDate":"2015-10-28 10:42:03",
+    "content":"尊敬的用户，您有新的订单消息",
+    "soNo":"XX001"
+  }],
+  "firstPage":false,
+  "lastPage":false,
+  "offset":0,
+  "page":1,
+  "pageCount":10,
+  "total":2,
+  "totalPage":1
+ }
+}
